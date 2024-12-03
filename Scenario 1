@@ -1,9 +1,0 @@
-data = [
-    (203040, "rajesh", 10, 20, 30, 40, 50)
-]
-
-df = spark.createDataFrame(data, ["rollno", "name", "telugu", "english", "maths", "science", "social"])
-df.show()
-
-totalcol = df.withColumn("total", expr("telugu+english+maths+science+social"))
-totalcol.show()
