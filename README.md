@@ -1,4 +1,4 @@
-# dataengineering 
+# dataengineering Scenarios
 This repository is for different real-time data engineering scenarios or problems solved using Pyspark
 
 ## Task 1(Aggegation)
