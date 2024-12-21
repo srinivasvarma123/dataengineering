@@ -15,7 +15,7 @@ spark = SparkSession.builder.getOrCreate()
 
 from pyspark.sql.functions import *
 
-"""~~~~~SCENARIO 1~~~~~"""
+
 data = [
     ('A', 'D', 'D'),
     ('B', 'A', 'A'),
