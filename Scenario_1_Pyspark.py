@@ -13,9 +13,8 @@ sc = SparkContext(conf=conf)
 
 spark = SparkSession.builder.getOrCreate()
 
+
 from pyspark.sql.functions import *
-
-
 data = [
     ('A', 'D', 'D'),
     ('B', 'A', 'A'),
